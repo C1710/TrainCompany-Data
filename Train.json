@@ -311,6 +311,24 @@
 			]
 		},
 		{
+			"id": 690,
+			"group": 2,
+			"name": "CargoSprinter",
+			"shortcut": "BR 690",
+			"speed": 120,
+			"weight": 118,
+			"force": 100,
+			"length": 90,
+			"drive": 2,
+			"reliability": 0.8,
+			"cost": 850000,
+			"operationCosts": 110,
+			"maxConnectedUnits": 5,
+			"capacity": [
+				{"name": "containers", "value": 5}
+			]
+		},
+		{
 			"id": 3,
 			"group": 0,
 			"name": "BR 101",
