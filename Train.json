@@ -189,7 +189,7 @@
 			"reliability": 1,
 			"cost": 500000,
 			"operationCosts": 40,
-			"equipments": [],
+			"equipments": ["ETCS"],
 			"maxConnectedUnits": 3,
 			"exchangeTime": 60,
 			"capacity": [
