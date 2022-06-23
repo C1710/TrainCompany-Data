@@ -165,7 +165,7 @@
 				"Bring den Zug von %s nach %s um eine Ost-West-Verbindung sicherzustellen."
 			],
 			"plops": 400000,
-			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": ["KK", "KKDZ", "KSO", "KW", "EHG", "EHM", "ESOT", "EPD", "HA", "HWAR", "FKW", "FB", "UEI", "UGO", "UE P"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -175,12 +175,11 @@
 			"name": "IC von %s nach %s",
 			"descriptions": [
 				"Der Intercity muss pünktlich von %s nach %s gebracht werden.",
-				"Schicke den IC pünktlich und sicher nach $2%s."
+				"Schicke den IC pünktlich und sicher nach %2$s."
 			],
 			"plops": 400000,
 			"objects": [
-				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]},
-				{"stations": ["HH", "EHFD", "EBILP", "EGLO", "EHM", "EDO", "EBO", "EE", "EDG", "KD", "KK"]}
+				{"stations": ["HH", "HELZ", "HK", "HG", "FKW", "FFU", "NWH"]}
 			],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
@@ -370,7 +369,7 @@
 				"Wegen Bauarbeiten an der VDE8 müssen zusätzliche Züge nach %2$s gefahren werden."
 			],
 			"plops": 300000,
-			"stations": ["NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": ["NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -436,7 +435,7 @@
 				"Die Strecke ist ideal um von Thüringen nach Norddeutschland oder zurück zu fahren."
 			],
 			"plops": 300000,
-			"stations": ["HG", "HEBG", "UL", "ULS", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": ["HG", "HEBG", "UL", "ULS", "UGO", "UE P"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -748,30 +747,6 @@
 				{"name": "castor", "value": 10}
 			],
 			"neededCapacityDifference": 3
-		},
-		{
-			"group": 1,
-			"name": "RRX von %s nach %s",
-			"descriptions": [
-				"Bringe den RRX von %s nach %s."
-			],
-			"plops": 300000,
-			"stations": ["KK", "KA", "KM", "KN", "KD", "KW", "EHG"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
-		},
-		{
-			"group": 1,
-			"name": "RB von %s nach %s",
-			"descriptions": [
-				"Bringe die RB von %s nach %s."
-			],
-			"plops": 180000,
-			"stations": ["KA", "KM", "KKR", "EDG"],
-			"neededCapacity": [
-				{"name": "passengers", "value": 0}
-			]
 		}
 	]
 }
