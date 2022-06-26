@@ -116,12 +116,14 @@
 					"description": "maximale Bahnsteiglänge",
 					"type": "integer",
 					"minimum": 0,
+					"maximum": 1000,
 					"default": 0
 				},
 				"platforms": {
 					"description": "Bahnsteiganzahl",
 					"type": "integer",
 					"minimum": 0,
+					"maximum": 50,
 					"default": 0
 				},
 				"forRandomTasks": {

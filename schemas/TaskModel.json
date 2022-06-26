@@ -106,7 +106,8 @@
 				"plops": {
 					"description": "Verdienst für die Ausschreibung",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 0,
+					"maximum": 1000000
 				},
 				"plopDifference": {
 					"description": "Zufällige Abweichung des Verdiensts in Prozent +/-",
@@ -122,7 +123,8 @@
 						"type": "string",
 						"minLength": 2,
 						"maxLength": 5
-					}
+					},
+					"minLength": 2
 				},
 				"neededCapacity": {
 					"description": "Art der Beladung und Menge.",

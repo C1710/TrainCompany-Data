@@ -138,12 +138,14 @@
 				"length": {
 					"description": "Länge der Strecke",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 0,
+					"maximum": 100
 				},
 				"maxSpeed": {
 					"description": "Höchstgeschwindigkeit des Streckenabschnitts",
 					"type": "integer",
-					"minimum": 1
+					"minimum": 1,
+					"maximum": 360
 				},
 				"electrified": {
 					"description": "Elektrifiziert",

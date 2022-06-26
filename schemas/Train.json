@@ -175,22 +175,26 @@
 				"speed": {
 					"description": "Höchstgeschwindigkeit in km/h",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 0,
+					"maximum": 360
 				},
 				"weight": {
 					"description": "Gewicht in t",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 0,
+					"maximum": 10000
 				},
 				"force": {
 					"description": "Anfahrzugkraft in kN",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 0,
+					"maximum": 2000
 				},
 				"length": {
 					"description": "Länge in m",
 					"type": "integer",
-					"minimum": 0
+					"minimum": 0,
+					"maximum": 1000
 				},
 				"drive": {
 					"description": "Traktionsart",
