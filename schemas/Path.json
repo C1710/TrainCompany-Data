@@ -139,7 +139,7 @@
 					"description": "Länge der Strecke",
 					"type": "integer",
 					"minimum": 0,
-					"maximum": 100
+					"maximum": 500
 				},
 				"maxSpeed": {
 					"description": "Höchstgeschwindigkeit des Streckenabschnitts",
