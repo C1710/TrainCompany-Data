@@ -420,7 +420,7 @@
 				"Wegen Bauarbeiten an der VDE8 müssen zusätzliche Züge nach %2$s gefahren werden."
 			],
 			"plops": 300000,
-			"stations": ["NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": ["NWH", "NS", "NBKI", "UM", "USL", "UPL", "UE P"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
@@ -524,7 +524,7 @@
 				"Die Strecke ist ideal um von Thüringen nach Norddeutschland oder zurück zu fahren."
 			],
 			"plops": 300000,
-			"stations": ["HG", "HEBG", "UL", "ULS", "UGO", "UE P", "UWM", "UJW", "UGW", "USK", "UHK", "UG"],
+			"stations": ["HG", "HEBG", "UL", "ULS", "UGO", "UE P"],
 			"neededCapacity": [
 				{"name": "passengers", "value": 0}
 			]
