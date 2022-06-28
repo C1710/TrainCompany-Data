@@ -8653,15 +8653,6 @@
 			"y": -337,
 			"platformLength": 298,
 			"platforms": 4
-		},
-		{
-			"name": "Wismar",
-			"ril100": "WWI",
-			"group": 2,
-			"x": 677,
-			"y": -353,
-			"platformLength": 215,
-			"platforms": 3
 		}
 	]
 }
