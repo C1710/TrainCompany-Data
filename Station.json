@@ -16027,8 +16027,8 @@
 			"name": "Herzogenbuchsee",
 			"ril100": "XSHZ",
 			"group": 2,
-			"x": 165,
-			"y": 759,
+			"x": 169,
+			"y": 767,
 			"platformLength": 410,
 			"platforms": 3
 		},
@@ -16304,8 +16304,8 @@
 			"name": "Burgdorf (CH)",
 			"ril100": "CH:BDF",
 			"group": 2,
-			"x": 154,
-			"y": 780,
+			"x": 156,
+			"y": 782,
 			"platformLength": 221,
 			"platforms": 2
 		},
@@ -16415,6 +16415,15 @@
 			"x": 51,
 			"y": 861,
 			"platformLength": 317,
+			"platforms": 3
+		},
+		{
+			"name": "Solothurn",
+			"ril100": "XSSO",
+			"group": 2,
+			"x": 144,
+			"y": 756,
+			"platformLength": 401,
 			"platforms": 3
 		}
 	]
