@@ -2,7 +2,7 @@
 name: Erweiterung
 about: Erweiterung um eine Strecke/Zug/Task
 title: ''
-labels: ''
+labels: extension
 assignees: ''
 
 ---
