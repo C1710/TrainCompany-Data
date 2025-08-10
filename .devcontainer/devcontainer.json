@@ -21,7 +21,34 @@
 				"python.linting.mypyPath": "/usr/local/py-utils/bin/mypy",
 				"python.linting.pycodestylePath": "/usr/local/py-utils/bin/pycodestyle",
 				"python.linting.pydocstylePath": "/usr/local/py-utils/bin/pydocstyle",
-				"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint"
+				"python.linting.pylintPath": "/usr/local/py-utils/bin/pylint",
+				"terminal.integrated.defaultProfile.linux": "bash",
+				"terminal.integrated.profiles.linux": {
+					"bash": {
+						"path": "/bin/bash",
+						"icon": "terminal-bash"
+					},
+					"zsh": {
+						"path": "/bin/zsh"
+					},
+					"fish": {
+						"path": "/bin/fish"
+					}
+				},
+				"files.autoSave": "afterDelay",
+				"files.autoSaveDelay": 200,
+				// Disable all "AI" and telemetry stuff
+				"chat.agent.enabled": false,
+				"chat.commandCenter.enabled": false,
+				"chat.focusWindowOnConfirmation": false,
+				"telemetry.feedback.enabled": false,
+				"remote.SSH.experimental.chat": false,
+				"telemetry.telemetryLevel": "off",
+				"dotnetAcquisitionExtension.enableTelemetry": false,
+				"workbench.enableExperiments": false,
+				"workbench.settings.enableNaturalLanguageSearch": false,
+				"update.showReleaseNotes": false,
+				"chat.notifyWindowOnConfirmation": false
 			},
 			
 			// Add the IDs of extensions you want installed when the container is created.
@@ -29,7 +56,8 @@
 				"ms-python.python",
 				"ms-python.vscode-pylance",
 				"mechatroner.rainbow-csv",
-				"pinage404.git-extension-pack"
+				"mhutchie.git-graph",
+				"dbaeumer.vscode-eslint"
 			]
 		}
 	},
