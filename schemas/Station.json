@@ -92,7 +92,7 @@
 					"type": "string",
 					"minLength": 2,
 					"maxLength": 20,
-					"pattern": "^[^:;\\[\\]]+$"
+					"pattern": "^[^:;\\[\\]0-9][^:;\\[\\]]+$"
 				},
 				"group": {
 					"description": "Art des Bahnhofs",
@@ -118,14 +118,12 @@
 				"platformLength": {
 					"description": "maximale Bahnsteiglänge",
 					"type": "integer",
-					"minimum": 0,
-					"default": 0
+					"minimum": 1
 				},
 				"platforms": {
 					"description": "Bahnsteiganzahl",
 					"type": "integer",
-					"minimum": 0,
-					"default": 0
+					"minimum": 1
 				},
 				"forRandomTasks": {
 					"description": "Wenn false wird die Station niemals für zufällige Tasks genutzt.",
